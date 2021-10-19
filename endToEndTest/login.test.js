@@ -8,7 +8,7 @@ describe("Successful login", () => {
   });
 
   it("should click login and validate modal text", async () => {
-    await page.click("#loginButton");
+    await page.click("#login-button");
     const text = await page.evaluate(
       () => document.querySelector("#login-modal").textContent
     );

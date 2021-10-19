@@ -13,7 +13,7 @@ const Navigation = ({ toggleLoginBoxState }) => (
           onClick={() => toggleLoginBoxState((state) => !state)}
           color="inherit"
         >
-          <span id="loginButton">Login</span>
+          <span id="login-button">Login</span>
         </Button>
       </Toolbar>
     </AppBar>
