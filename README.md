@@ -4,7 +4,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Requires Npm - (node package manager)
+
 In the project directory, you can run:
+
+### `npm install`
+
+This will install project dependancies.
 
 ### `npm run start`
 
